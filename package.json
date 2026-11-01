@@ -1,0 +1,33 @@
+{
+  "name": "la-petite-vienne-web",
+  "version": "1.0.0",
+  "description": "Website bán bánh La Petite Vienne (Phong cách The Vagabond Patisserie)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build:css": "tailwindcss -i ./src/index.css -o ./public/output.css --watch"
+  },
+  "keywords": [
+    "bakery",
+    "react",
+    "tailwind",
+    "express",
+    "vagabond-patisserie"
+  ],
+  "author": "La Petite Vienne Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "lucide-react": "^0.378.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "nodemon": "^3.1.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
